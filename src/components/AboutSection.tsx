@@ -11,10 +11,10 @@ const values = [
 ]
 
 const stats = [
-  { number: "50+", label: "Проектов" },
-  { number: "45+", label: "Довольных клиентов" },
-  { number: "30+", label: "Созданных логотипов" },
-  { number: "3+", label: "Года опыта" },
+  { number: "2-5", label: "Дней на запуск" },
+  { number: "от 19 900 ₽", label: "Стоимость сайта" },
+  { number: "100%", label: "Адаптивность" },
+  { number: "ИИ", label: "В основе работы" },
 ]
 
 export function AboutSection() {
@@ -27,7 +27,7 @@ export function AboutSection() {
         <div className="text-center mb-16">
           <div className="inline-flex items-center gap-2 mb-4 px-4 py-2 rounded-full bg-primary/10 text-primary text-sm font-semibold">
             <Sparkles className="h-4 w-4" />
-            О CodeCraft
+            О НейроСайт
           </div>
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6 text-balance">
             Качество, которое{" "}
@@ -39,7 +39,7 @@ export function AboutSection() {
             </span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto text-pretty leading-relaxed">
-            Создание сайта не должно быть дорогим. Мы разрабатываем индивидуальные решения, которые идеально соответствуют пожеланиям каждого клиента.
+            Создание сайта не должно быть дорогим и долгим. Мы используем ИИ, чтобы делать современные сайты для локального бизнеса быстро и по честной цене.
           </p>
         </div>
 
